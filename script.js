@@ -35,5 +35,5 @@ function createHeart() {
 }
 
 function kirimPesan() {
-    window.open("https://wa.me/81361425142", '_blank');
+    window.open("https://wa.me/6281361425142", '_blank');
 }
