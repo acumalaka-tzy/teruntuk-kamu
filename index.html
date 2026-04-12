@@ -3,12 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Untuk Britania</title>
+    <title>Untuk Istriku</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <div id="overlay">
+        <button onclick="mulai()" class="btn-start">Klik Untuk Kejutan ❤️</button>
+    </div>
+
     <div id="heart-container"></div>
+    
+    <audio id="myAudio" loop>
+        <source src="musik.mp3" type="audio/mpeg">
+    </audio>
 
     <main class="wrapper">
         <div class="card">
@@ -18,10 +26,7 @@
                 <p>Makasih ya sudah mau foto bareng❤️❤️❤️.</p>
                 <p class="love-text">Kakak keren bangett!</p>
             </div>
-            
-            <button onclick="kirimPesan()" class="btn-love">
-                Balas Pesan Ini ❤️
-            </button>
+            <button onclick="kirimPesan()" class="btn-love">Balas Pesan Ini ❤️</button>
         </div>
     </main>
 
